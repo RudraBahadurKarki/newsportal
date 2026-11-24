@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class advertise extends Model
+class Advertise extends Model
 {
     protected $fillable = [
         'company_name',

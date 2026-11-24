@@ -11,9 +11,8 @@ class Author extends Model
         'image',
     ];
 
-
     public function articles()
     {
-        return $this-> belongToMany(Article::class);
+        return $this->hasMany(Article::class);
     }
 }
