@@ -1,7 +1,7 @@
 
 @extends('component.layout')
 
-@section('title', 'NewsHub - Latest News')
+@section('title', 'NewsHub')
 
 @section('content')
 
